@@ -5,7 +5,7 @@ import "./chatbot.css";
 const GeminiAi = () => {
   const [question, setQuestion] = useState("");
   const [messages, setMessages] = useState([
-    { type: "bot", content: "Welcome! How can I assist you today?" },
+    { type: "bot", content: "Welcome! How can I be of service today?" },
   ]);
   const [loading, setLoading] = useState(false);
 
